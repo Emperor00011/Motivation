@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Daily Motivation Hub</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>Daily Motivation Hub</h1>
+            <p>Stay inspired. Stay productive.</p>
+
+            <button id="themeToggle">🌙 Toggle Mode</button>
+        </header>
+
+        <section class="card">
+            <h2>💡 Motivation Quote</h2>
+            <p id="quote">Click the button to generate motivation.</p>
+            <button onclick="generateQuote()">New Quote</button>
+        </section>
+
+        <section class="card">
+            <h2>🌍 Random Fact</h2>
+            <p id="fact">Fun facts will appear here.</p>
+            <button onclick="generateFact()">New Fact</button>
+        </section>
+
+        <section class="card">
+            <h2>⏰ Live Clock</h2>
+            <p id="clock"></p>
+        </section>
+
+        <footer>
+            <p>#MyFirstWebsite 🚀</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
